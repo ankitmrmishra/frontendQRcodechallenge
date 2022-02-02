@@ -1,0 +1,61 @@
+body{
+    background:hsl(212, 45%, 89%);
+    
+}
+
+
+.container{
+    padding-top: 4rem;
+  
+   text-align: center;
+   
+}
+
+.main-content{
+    position: relative;
+   width: 20rem;
+   margin: auto;
+   translate: center;
+    align-content: center;
+  padding-top: 0.95rem;
+  padding-left: 0.95rem;
+  padding-right: 0.95rem;
+  padding-bottom: 0rem;
+    background-color: white;
+    border-radius: 8%;
+  
+}
+
+p{
+    font-family: 'Outfit', sans-serif;
+    padding: 2rem 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+h4{
+  padding-top: 0.4rem; 
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+footer{
+    text-align: center;
+    font-weight: 900;
+ 
+  
+}
+a{
+    text-decoration: none;
+}
+
+@media  screen and  (max-width: 400px)
+{
+    .main-content{
+       width:auto;
+    }
+}
+    
+
+
+
+
